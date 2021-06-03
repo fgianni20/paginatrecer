@@ -1,0 +1,152 @@
+/*Declaracion de bloques---BEM*/
+/*Bloque  0 */
+.inicio__imagen {
+  width: 100%; }
+
+/*Bloque  1 */
+/*Nosotros*/
+.nosotros {
+  background-color: white; }
+
+.nosotros__titulo {
+  color: black;
+  text-align: center;
+  font-family: "Montserrat", sant serif;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  margin-top: 20px; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.nosotros__texto {
+  color: black;
+  font-family: "Montserrat", sant serif;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.nosotros__imagen {
+  width: 80%;
+  margin-left: 130px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.nosotros__contenedor1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+/*Bloque  2 */
+/*Productos*/
+.productos {
+  background-color: white;
+  height: auto; }
+
+.productos__titulo {
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sant serif;
+  animation-duration: 2s;
+  text-align: center;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.productos__contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.productos__imagen {
+  border: rgba(175, 135, 132, 0.938) solid 1px;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px; }
+
+.productos__contenedor1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row; }
+
+/*Bloque  3 */
+/*Servicio*/
+.servicio {
+  background-color: white; }
+
+.servicio__titulo {
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sant serif;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  margin-top: 30px; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.servicio__texto {
+  color: black;
+  font-family: "Montserrat", sant serif;
+  animation-duration: 2s;
+  margin-bottom: 30px;
+  animation-name: aparecer;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify; }
+
+.servicio__contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+/*Bloque  4 */
+/*Hablanos*/
+.hablanos {
+  background-color: white; }
+
+.hablanos__titulo {
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sant serif;
+  animation-duration: 2s;
+  text-align: center;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*Bloque  5 */
+/*Pie*/
+.pie {
+  color: whitesmoke;
+  width: 100%;
+  height: 50px; }
