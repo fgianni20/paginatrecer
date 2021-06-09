@@ -47,44 +47,57 @@
     </header>
 
 
-    <main class="hablanos">
+    <section class="contacto">
 
-    <h2 class="hablanos__titulo">Formulario de Contacto</h2>
-    
-    <form class="hablanos__formulario">
-      <fieldset>
-          <legend>Datos Personales</legend>
+    <!--Comienzo de mi formulario-->
 
-       <label for="nombre">Nombre y Apellido:</label>
-       <input type="text" name="nombre">
-       <br>
-       <label for="email">Email:</label>
-       <input type=text name="email">
-       <br>
-       <label for="telefono">Telefono:</label>
-       <input type="text"  name="telefono">
+      <form action="" class="formularioDos">
+        <h3>Contacto</h3>
+        <input type="text" name="Nombre" placeholder="Nombre y Apellido">
+        <input type="text" name="Correo" placeholder="Correo">
+        <input type="text" name="Telefono" placeholder="Teléfono">
+        <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+        <input type="button" value="ENVIAR" class="botonForm">
 
-      </fieldset>    
+      </form>
 
-       <br>
+  </section>
 
-       <label for="Contacto">¿Como desea ser contactado?</label>
-       <select> name="Contacto">
-           <option value="Email">Email</option>
-           <option value="Telefono">Telefono</option>
-       </select>
-       <br>
 
-      <br>
-
-      <div>Comentarios</div>
-      <textarea name="Comentarios">
-
-      </textarea>
-
-      <br>
-      <input type="submit" value="Enviar" class="botonesFormulario">
+        <div class="hablanos__contenedor">
       
+        <!-- Card que dirije a Nosotros -->
+        <div class="card hablanos__contenedor1--card1" style="width: 18rem;">
+          <img src="../img/nosotros/nosotros.png" class="card-img-top" alt="Productos">
+          <div class="card-body">
+            <h5 class="card-title">Nosotros</h5>
+            <p class="card-text"> Conoce nuestra historia.</p>
+            <a href="./Nosotros.html" class="btn btn-primary">Ir a Nosotros</a>
+          </div>
+        </div>
+
+                  <!-- Card que dirije a Prodcutos -->
+          <div class="card hablanos__contenedor1--card1" style="width: 18rem;">
+            <img src="../img/nosotros/cortedecerdo-min.jpg" class="card-img-top" alt="Productos">
+            <div class="card-body">
+              <h5 class="card-title">Productos</h5>
+              <p class="card-text"> Ofrecemos productos de la mas alta calidad.</p>
+              <a href="./Productos.html" class="btn btn-primary">Ir a prodcutos</a>
+            </div>
+          </div>
+        
+        
+        <!-- Card que dirije a Servicio -->
+        <div class="card hablanos__contenedor1--card2" style="width: 18rem;">
+          <img src="../img/nosotros/flota-min.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Servicio</h5>
+            <p class="card-text">Conoce como trabajamos.</p>
+            <a href="./Servicio.html" class="btn btn-primary">Ir a Servicios</a>
+          </div>
+        </div>
+        
+      </div>
        
   </form>
     </main>
