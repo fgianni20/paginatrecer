@@ -379,11 +379,12 @@ $bordo:rgb(122, 22, 22);
 /*Hablanos*/  
 
 .hablanos {
-  background: #181818;
-  color: #fff;
+  background: white;
+  color: white;
   line-height: 1.6;
   font-family: $fuente;
   padding: 0 1.5em;
+  margin-top: 50px;
 }
 
 .container__hablanos {
@@ -401,6 +402,7 @@ $bordo:rgb(122, 22, 22);
 .logo {
   text-align: center;
   font-size: 3em;
+  margin-top: 40px;
 }
 
 .contact-wrapper {
@@ -472,7 +474,7 @@ $bordo:rgb(122, 22, 22);
 
 /* LARGE SIZE */
 @media(min-width: 700px) {
-  body {
+  .hablanos {
       padding: 0 4em;
   }
   .contact-wrapper {
@@ -480,7 +482,7 @@ $bordo:rgb(122, 22, 22);
       grid-template-columns: 2fr 1fr;
   }
   .contact-wrapper > * {
-      padding: 2em;
+      padding: 2em; 
   }
   .contact-info h4,
   .contact-info ul,
@@ -489,6 +491,7 @@ $bordo:rgb(122, 22, 22);
   }
 }
   .hablanos__contenedor {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-evenly;
@@ -556,6 +559,10 @@ $bordo:rgb(122, 22, 22);
    
   
   }
+  .black
+{
+  color: #000;
+}
   /*Bloque  5 */
 /*Footer*/  
 
